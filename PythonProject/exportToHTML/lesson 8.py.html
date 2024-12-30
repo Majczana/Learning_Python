@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>lesson 8.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #7a7e85;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+.s4 { color: #cf8e6d;}
+.s5 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+lesson 8.py</font>
+</center></td></tr></table>
+<pre><span class="s0"># Python weight converter</span>
+
+<span class="s1">weight </span><span class="s2">= </span><span class="s1">float</span><span class="s2">(</span><span class="s1">input</span><span class="s2">(</span><span class="s3">&quot;Enter your weight: &quot;</span><span class="s2">))</span>
+<span class="s1">unit </span><span class="s2">= </span><span class="s1">input</span><span class="s2">(</span><span class="s3">&quot;kg or pounds? (K or L): &quot;</span><span class="s2">)</span>
+
+<span class="s4">if </span><span class="s1">unit </span><span class="s4">not in </span><span class="s2">[</span><span class="s3">&quot;K&quot;</span><span class="s2">, </span><span class="s3">&quot;L&quot;</span><span class="s2">]:</span>
+    <span class="s1">print</span><span class="s2">(</span><span class="s3">f&quot;The </span><span class="s4">{</span><span class="s1">unit</span><span class="s4">} </span><span class="s3">is not correct&quot;</span><span class="s2">)</span>
+    <span class="s1">exit</span><span class="s2">()</span>
+<span class="s4">else</span><span class="s2">:</span>
+    <span class="s4">pass</span>
+
+<span class="s4">if </span><span class="s1">unit </span><span class="s2">== </span><span class="s3">&quot;K&quot;</span><span class="s2">:</span>
+    <span class="s1">weight </span><span class="s2">= </span><span class="s1">weight </span><span class="s2">* </span><span class="s5">2.205</span>
+    <span class="s1">unit </span><span class="s2">= </span><span class="s3">&quot;Lbs.&quot;</span>
+<span class="s4">elif </span><span class="s1">unit </span><span class="s2">== </span><span class="s3">&quot;L&quot;</span><span class="s2">:</span>
+    <span class="s1">weight </span><span class="s2">= </span><span class="s1">weight </span><span class="s2">/ </span><span class="s5">2.205</span>
+    <span class="s1">unit </span><span class="s2">= </span><span class="s3">&quot;Kgs.&quot;</span>
+
+<span class="s1">print</span><span class="s2">(</span><span class="s3">f&quot;Your weight is </span><span class="s4">{</span><span class="s1">round</span><span class="s2">(</span><span class="s1">weight</span><span class="s2">, </span><span class="s5">1</span><span class="s2">)</span><span class="s4">} {</span><span class="s1">unit</span><span class="s4">}</span><span class="s3">&quot;</span><span class="s2">)</span></pre>
+</body>
+</html>
