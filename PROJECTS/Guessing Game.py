@@ -5,7 +5,7 @@ word = food[random.randint(0, 2)] # Od 0 - 2 bo lista zaczyna się od 0
 attempts = 0
 guesses = []
 word_encript = word
-
+index = 0
 #user_name = input("Podaj swoje imię: ").capitalize
 #print(f"Powodzenia {user_name}!")
 
