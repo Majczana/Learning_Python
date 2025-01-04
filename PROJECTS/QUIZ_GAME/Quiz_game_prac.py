@@ -30,7 +30,7 @@ opcje = (
     )   # 5. Jak w Pythonie sprawdzić, czy liczba jest większa od 10?
 )
 
-odpowiedzi = ("A","B","C","A","A")
+odpowiedzi = ("A","A","B","A","B")
 guesses = []
 wynik = 0
 nr_pyt = 0
@@ -62,3 +62,8 @@ print("-------------------------")
 wynik = int(wynik / len(pytania) * 100)
 print(f"Twój wynik to: {wynik}%")
 print("-------------------------")
+
+if not wynik >= 50:
+    print("Brawo!")
+else:
+    print("Sprobuje jeszcze raz!")
