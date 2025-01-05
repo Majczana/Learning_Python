@@ -6,6 +6,7 @@ menu = {"kawa": 3.50, "herbata": 4.50,
         "kawa z cukrem": 7.50, 
         "herbata z cukrem": 8.50}
 
+
 cart = []
 total = 0
 
@@ -15,7 +16,7 @@ for product, price in menu.items():
 print("------------------------------")
 
 def koszyk(cart, total):
-    print("Twój koszyk:")
+    print('Twój koszyk:')
     time.sleep(1)
     print("---------------------")
     for produkt in cart:
@@ -41,5 +42,4 @@ while True:
         print()
     else:
         print("*Produktu nie ma na liście, spróbuj ponownie*")
-
 
