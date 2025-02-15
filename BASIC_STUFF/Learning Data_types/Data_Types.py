@@ -21,6 +21,3 @@ x, y, z = 1, 2, 3
 x = y = z = 0
 
 print(x,y,z)
-
-#siema dodaje tutaj coś dla testu adsjkasdjkasdjk
-#asdasddas
