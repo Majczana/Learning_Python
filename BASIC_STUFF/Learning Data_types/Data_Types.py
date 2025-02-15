@@ -1,6 +1,7 @@
 # Variable = a reusable container for storing a value
 
 age = 22
+date = 5
 
 print("You are a " + str(age) + " years old.") #Zamianna zmiennej na string
 print("You are a", age, "years old.") #Oddzielenie zmiennych
@@ -21,3 +22,5 @@ x = y = z = 0
 
 print(x,y,z)
 
+#siema dodaje tutaj coś dla testu adsjkasdjkasdjk
+#asdasddas
